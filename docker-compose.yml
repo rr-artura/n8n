@@ -43,7 +43,7 @@ services:
     depends_on:
       - postgres
     networks:
-      - n8n-network
+      - mainconn
 
 volumes:
   n8n_data:
